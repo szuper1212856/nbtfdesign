@@ -6,34 +6,57 @@
     <title>Design Application</title>
     <style>
         body {
-            background-color: black;
-            color: white;
+            background-color: #0a0a0a;
+            color: #ffffff;
             font-family: Arial, sans-serif;
             text-align: center;
             padding: 20px;
         }
+        .container {
+            max-width: 700px;
+            margin: auto;
+            padding: 30px;
+            background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgba(30, 30, 30, 0.9));
+            border-radius: 15px;
+            box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.3);
+        }
         h1 {
             color: cyan;
+            font-size: 28px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
         }
-        .container {
-            max-width: 600px;
-            margin: auto;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.1);
-            border-radius: 10px;
+        p {
+            font-size: 16px;
+            color: #dddddd;
+            margin-bottom: 15px;
+        }
+        ul {
+            text-align: left;
+            display: inline-block;
+            color: #ffffff;
+            font-size: 16px;
+        }
+        li {
+            margin: 10px 0;
         }
         .button {
             display: inline-block;
             margin-top: 20px;
-            padding: 15px 25px;
+            padding: 15px 30px;
             font-size: 18px;
+            font-weight: bold;
             color: white;
-            background-color: blue;
+            background: linear-gradient(to right, #007bff, #00c6ff);
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 8px;
+            transition: 0.3s;
+            box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.5);
         }
         .button:hover {
-            background-color: darkblue;
+            background: linear-gradient(to right, #0056b3, #0099ff);
+            box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.8);
         }
     </style>
 </head>
@@ -41,12 +64,12 @@
 
     <h1>Join the Design Team</h1>
     <div class="container">
-        <p>We are looking for creative designers to help shape the future of our project! If you have skills in UI/UX, graphics, or digital design, apply now.</p>
+        <p>We are looking for talented designers to help shape the future of our project! If you have experience in UI/UX, digital design, or app interface design, apply now.</p>
         <p><strong>Requirements:</strong></p>
         <ul>
-            <li>Experience in UI/UX or graphic design</li>
-            <li>Ability to work with design tools like Figma, Photoshop, or Illustrator</li>
-            <li>Creative mindset and ability to bring new ideas</li>
+            <li>Experience with UI/UX or graphic design</li>
+            <li>Ability to work with <b>Figma</b>, <b>Sketchbook</b>, Photoshop, or Illustrator</li>
+            <li>Creative mindset and ability to bring fresh ideas</li>
             <li>Commitment to working on project improvements</li>
         </ul>
         <p>Click the button below to apply:</p>
